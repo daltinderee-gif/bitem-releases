@@ -1,30 +1,33 @@
-# BİTEM Desktop Search
+# BİTEM Desktop Search — Binary Releases
 
-Belgelerin, taranmış PDF'lerin, fotoğrafların ve e-postaların **içinde** arama yapar. Dosyanın adını hatırlamasanız da içindeki bir kelimeyle saniyeler içinde bulursunuz.
+Public download mirror for BİTEM Desktop Search installers. Search inside documents, scanned PDFs, photos and e-mail — entirely on your own computer.
 
-## İndir
+**Latest release:** see the [Releases](https://github.com/daltinderee-gif/bitem-releases/releases) page.
 
-| Sistem | Bağlantı |
-|---|---|
-| Windows 10 / 11 | [BITEM-Desktop-Search-Kurulum.exe](https://github.com/daltinderee-gif/BITEM-Desktop-Search/releases/latest/download/BITEM-Desktop-Search-Kurulum.exe) |
-| macOS 12 ve üzeri | [BITEM-Desktop-Search.dmg](https://mbsearch-surum.vercel.app/BITEM-Desktop-Search.dmg) |
+**Source code:** private (commercial).
 
-Tüm sürümler ve dosya özetleri (SHA-256): [Sürümler](https://github.com/daltinderee-gif/BITEM-Desktop-Search/releases)
-Tanıtım videosu ve kurulum kılavuzu: [mbsearch-surum.vercel.app](https://mbsearch-surum.vercel.app/)
+## Installers
 
-## Gizlilik
+- 🪟 **Windows** 10 / 11 (x64): [`BITEM-Desktop-Search-Kurulum.exe`](https://github.com/daltinderee-gif/bitem-releases/releases/latest/download/BITEM-Desktop-Search-Kurulum.exe)
+- 🍎 **macOS** 12 or newer (Apple Silicon and Intel): [`BITEM-Desktop-Search.dmg`](https://github.com/daltinderee-gif/bitem-releases/releases/latest/download/BITEM-Desktop-Search.dmg)
 
-- Tarama ve arama yalnız sizin bilgisayarınızda yapılır. Belgeleriniz, e-postalarınız ve aramalarınız hiçbir sunucuya gönderilmez.
-- Programın internete tek bağlantısı yeni sürüm kontrolüdür; Ayarlar › Gizlilik › *İnternete hiç bağlanma* ile tamamen kapatılabilir.
-- Neyin taranacağını siz seçersiniz; arama verilerini istediğiniz an tek tıkla silebilirsiniz.
+Each release lists the SHA-256 of every file, so IT can verify that an installer has not been altered.
 
-## Kurulum uyarısı
+## Türkçe
 
-Kurulum dosyası henüz dijital imzalı değildir. Windows “Windows bilgisayarınızı korudu” derse **Ek bilgi › Yine de çalıştır**'a basın. Kurumsal toplu kurulum için:
+BİTEM Desktop Search kurulum dosyalarının herkese açık indirme sayfası. Program belgelerin, taranmış PDF'lerin, fotoğrafların ve e-postaların içinde arar; tarama ve arama yalnız sizin bilgisayarınızda yapılır, hiçbir belge bir sunucuya gönderilmez.
+
+- **Windows 10 / 11:** [Kurulum dosyasını indir](https://github.com/daltinderee-gif/bitem-releases/releases/latest/download/BITEM-Desktop-Search-Kurulum.exe)
+- **macOS 12 ve üzeri:** [.dmg dosyasını indir](https://github.com/daltinderee-gif/bitem-releases/releases/latest/download/BITEM-Desktop-Search.dmg)
+
+Kurulum dosyaları henüz dijital imzalı değildir. Windows “Windows bilgisayarınızı korudu” derse **Ek bilgi › Yine de çalıştır**'a basın. Mac “Apple doğrulayamadı” derse **Sistem Ayarları › Gizlilik ve Güvenlik › Yine de Aç**'a basın.
+
+Kurumsal toplu kurulum (Windows):
 
 ```
 BITEM-Desktop-Search-Kurulum.exe /VERYSILENT /SUPPRESSMSGBOXES /NORESTART
 ```
 
----
-Bu depo yalnız kurulum dosyalarını dağıtır; programın kaynak kodu burada değildir.
+## Support
+
+Questions and bug reports: contact the BİTEM team directly. This repository hosts installers only — no issue tracker.

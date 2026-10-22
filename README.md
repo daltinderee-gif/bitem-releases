@@ -20,7 +20,15 @@ BİTEM Desktop Search kurulum dosyalarının herkese açık indirme sayfası. Pr
 - **Windows 10 / 11:** [Kurulum dosyasını indir](https://github.com/daltinderee-gif/bitem-releases/releases/latest/download/BITEM-Desktop-Search-Kurulum.exe)
 - **macOS 12 ve üzeri:** [.dmg dosyasını indir](https://github.com/daltinderee-gif/bitem-releases/releases/latest/download/BITEM-Desktop-Search.dmg)
 
-Kurulum dosyaları henüz dijital imzalı değildir. Windows “Windows bilgisayarınızı korudu” derse **Ek bilgi › Yine de çalıştır**'a basın. Mac “Apple doğrulayamadı” derse **Sistem Ayarları › Gizlilik ve Güvenlik › Yine de Aç**'a basın.
+Kurulum dosyaları henüz dijital imzalı değildir. Windows “Windows bilgisayarınızı korudu” derse **Ek bilgi › Yine de çalıştır**'a basın.
+
+Mac'te uygulamayı Uygulamalar klasörüne sürükledikten sonra, ilk açılıştan önce bir kez Terminal'e şu satırı yapıştırıp Enter'a basın (yoksa “Apple doğrulayamadı” der):
+
+```
+xattr -rd com.apple.quarantine "/Applications/BİTEM Desktop Search.app"
+```
+
+Aynı adımlar .dmg içindeki “Önce Beni Oku” dosyasında da yazılı.
 
 Kurumsal toplu kurulum (Windows):
 
